@@ -1,4 +1,4 @@
-## 🌈 Chapter 6 : 키-값 저장소 설계
+## 🌈 Chapter 8 : URL 단축기 설계
 
 <details><summary>정리</summary>
 
