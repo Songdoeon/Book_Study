@@ -1,3 +1,2 @@
-# Book_Study
+# Modern Java in Action
 
-책 좀 읽자.
