@@ -215,4 +215,4 @@ List<Apple> heavyApples =
 ### 🎈 함수형 프로그래밍에서 가져온 다른 유용한 아이디어
 우리의 개발에 발목을 자주 붙잡는 NullPointException은 Runtime Exception으로 피하기가 쉽지 않다.
 
-하지만 자바 8에서 부턴 Optional<T> 클래스로 NPE를 피할수 있도록 도와준다.
+하지만 자바 8에서 부턴 Optional<T> 클래스로 NPE를 피할 수 있도록 도와준다.
