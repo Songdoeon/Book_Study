@@ -162,7 +162,9 @@ List<String> names = menu.stream()
   - 외부 반복에서는 병렬성을 스스로 관리해야함.
 
 다음 그림은 내부 반복과 외부 반복의 차이를 보여준다.
-[그림 4-4]
+
+<img width="554" alt="image" src="https://github.com/Songdoeon/Book_Study/assets/96420547/8cafb77f-d815-449b-9aa1-071eec285ecc">
+
 
 ## 📚 LESSEN 4 : 스트림 연산
 java.util.stream.Stream 인터페이스는 많은 연산을 정의한다.
@@ -197,4 +199,6 @@ java.util.stream.Stream 인터페이스는 많은 연산을 정의한다.
 
 보통 최종 연산에 의해 List, Integer, void등 결과가 반환된다.
 
-[표 4-1]
+
+<img width="731" alt="image" src="https://github.com/Songdoeon/Book_Study/assets/96420547/d23f8892-2da1-4c84-aec1-72a1b17ecea2">
+
