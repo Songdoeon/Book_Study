@@ -429,7 +429,7 @@ public Biconsumer<Map<Boolean, List<Iteger>>> accmulator() {
 
 하지만 이런 순차적인 알고리즘에서는 컬렉터를 병렬로 실행할 수 없다.
 
-그러므로 사실 빈 구혀느로 남겨둘 수도 있지만, 학습을 목적으로 구현해보도록 하자.
+그러므로 사실 빈 구현으로 남겨둘 수도 있지만, 학습을 목적으로 구현해보도록 하자.
 - Combiner 메서드
 ```java
 public BinaryOperator<Map<Boolean, List<Integer>> combiner(){
