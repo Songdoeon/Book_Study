@@ -324,13 +324,13 @@ moviesTocOunt.merge(movieName, 1L, (count, increment) -> count + 1L);
 
 - 맵의 크기가 주어진 기준값보다 작으면 순차적으로 연산을 실행한다.   
 - 기준값을 1로 지정하면 공통 스레드 풀을 이용해 병렬성을 극대화 한다.
-- Long.MAX_VALUE를 기준값으로 설저하면 한 개의 스레드로 연산을 실행한다.
+- Long.MAX_VALUE를 기준값으로 설정하면 한 개의 스레드로 연산을 실행한다.
 
 우리의 소프트웨어 아키텍처가 고급 수준의 자원 활용 최적화를 사용하고 있지 않다면, 기준값 규칙을 따르는 것이 좋다.
 
-- reduceValues 메서드를 이용한 맵의 최댓값 찾기
+- `reduceValues` 메서드를 이용한 맵의 최댓값 찾기
 ```java
-ConcurrentHashMap<String, Long map = new ConcurrentHashMap<>();
+ConcurrentHashMap<String, Long> map = new ConcurrentHashMap<>();
 long parallelismThresold = 1;
 
 Optional<Integer> maxValue =
