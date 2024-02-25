@@ -7,3 +7,6 @@
 - [5장 스트림 활용](./content/Chapter05.md)
 - [6장 스트림으로 데이터 수집](./content/Chapter06.md)
 - [7장 병렬 데이터 처리와 성능](./content/Chapter07.md)
+- [8장 컬렉션 API 개선](./content/Chapter08.md)
+- [9장 리팩터링, 테스팅, 디버깅](./content/Chapter09.md)
+- [10장 람다를 이용한 도메인 전용 언어](./content/Chapter10.md)
